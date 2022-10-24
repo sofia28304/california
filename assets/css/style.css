@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*
+Breakpoint	Class	Dimensions
+Desktop Version 1280×720 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-VariableFont_wght.ttf);
+}
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+header img {
+  height: 250px;
+  width: 150px;
+}
+header p {
+  padding: 3%;
+}
+header article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 5% 15% 5%;
+}
+header article img {
+  width: 80px;
+  height: 80px;
+}
+header article button {
+  height: 35px;
+  width: 100px;
+  background-color: black;
+  border: 2px solid white;
+  text-align: center;
+  color: whitesmoke;
+}
+
+main article {
+  padding: 10% 0 0 5%;
+}
+main article:nth-of-type(1) {
+  background-color: black;
+  color: white;
+}
+main article:nth-of-type(1) h2 {
+  width: 80%;
+  padding: 0 10% 0% 0;
+}
+main article:nth-of-type(1) section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main article:nth-of-type(1) section div {
+  background-position: right 35% bottom 45%;
+}
+main article:nth-of-type(1) section div .stat {
+  font-size: 1rem;
+  padding: 0 0 3% 0;
+}
+main article:nth-of-type(1) section div .statNumber {
+  font-size: 4rem;
+  padding: 0 0 10% 0;
+}
+main article:nth-of-type(1) section img {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: -100px;
+}
+main article:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+main article:nth-of-type(2) img {
+  height: 150px;
+  width: auto;
+}
+main article:nth-of-type(2) .GridText {
+  width: 400px;
+}
+main article:nth-of-type(2) .grid1 {
+  grid-column: 3/span 2;
+}
+main article:nth-of-type(2) .grid2 {
+  grid-column: 1/span 1;
+}
+main article:nth-of-type(2) .grid3 {
+  grid-colum: 2/span 2;
+}
+main article:nth-of-type(2) .grid4 {
+  grid-column: 4/span 1;
+}
+main article:nth-of-type(2) .grid5 {
+  grid-column: 1/span 2;
+}
+main article:nth-of-type(2) .grid6 {
+  grid-column: 3/span 2;
+}
+main article:nth-of-type(2) .grid7 {
+  grid-column: 1/span 1;
+}
+main article:nth-of-type(2) .grid8 {
+  grid-column: 2/span 3;
+}
+main article:nth-of-type(2) .grid {
+  grid-column: 1/span 4;
+}
+
+/*# sourceMappingURL=style.css.map */
